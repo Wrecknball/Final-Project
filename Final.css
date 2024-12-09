@@ -526,11 +526,7 @@ details p {
     grid-area: 1 / 1 / 1 / span 5;
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        scale: 100%;
-    }
-    
+@media screen and (max-width: 980px) {
     h1 {
         font-size: 40px;
     }
