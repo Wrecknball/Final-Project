@@ -556,11 +556,20 @@ details p {
         height: 15em;
     }
 
+    #wolfpriestpage #divwrap img {
+        height: 35em;
+    }
+
     #ironpriestpage {
         clear: both;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, .1fr);
+    }
+
+    #page1main img, #ironpriestpage img {
+        height: 15em;
+        width: auto;
     }
 }
 
