@@ -528,7 +528,7 @@ details p {
 
 @media screen and (max-width: 480px) {
     body {
-        scale: 90%;
+        transform: scale(.95);
     }
 }
 
