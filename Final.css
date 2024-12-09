@@ -526,6 +526,36 @@ details p {
     grid-area: 1 / 1 / 1 / span 5;
 }
 
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    header img {
+        width: 5em;
+    }
+
+    #ironpriestpage #divwrap img {
+        height: 10em;
+    }
+
+    #wolfpriestpage #divwrap img {
+        height: 15em;
+    }
+
+    #ironpriestpage {
+        clear: both;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, .1fr);
+    }
+
+    #page1main img, #ironpriestpage img {
+        height: 15em;
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 1080px) {
     main {
         margin-left: .5em;
