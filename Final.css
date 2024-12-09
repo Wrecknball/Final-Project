@@ -526,9 +526,41 @@ details p {
     grid-area: 1 / 1 / 1 / span 5;
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        transform: scale(.95);
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    #bookmarks {
+        font-size: 1em;
+    }
+
+    header img {
+        width: 5em;
+    }
+
+    #ironpriestpage #divwrap img {
+        height: 5em;
+    }
+
+    #wolfpriestpage #divwrap img {
+        height: 7em;
+    }
+
+    #ironpriestpage {
+        clear: both;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, .1fr);
+    }
+
+    #page1main img, #ironpriestpage img {
+        height: 7em;
+        width: auto;
     }
 }
 
