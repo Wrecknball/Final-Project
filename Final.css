@@ -562,6 +562,10 @@ details p {
         height: 7em;
         width: auto;
     }
+
+    .bkexpcontent, .bkexp1content, .bkexp2content, .bkexp3content {
+        left: 1em;
+    }
 }
 
 @media screen and (max-width: 1080px) {
